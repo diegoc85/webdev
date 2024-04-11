@@ -8,9 +8,14 @@
 </head>
 <body>
     <h1>Calculadora HTML + JS</h1>
-    <input type="number" id="numero1">
-    <input type="number" id="numero2">
+    <input type="number" id="numero1" placeholder="Insira um número">
+    <input type="number" id="numero2" placeholder="Insira um número">
+
     <button id="btnClicar" onclick="clicar()">Calcular</button>
+    <button id="btnSoma" onclick="soma()">+</button>
+    <button id="btnSubt" onclick="subtracao()">-</button>
+    <button id="btnMulti" onclick="multiplacao()">*</button>
+    <button id="btnDivisao" onclick="divisao()">/</button>
     <h2>Resultado:</h2>
     <p id="resultado"></p>
     <script src="app.js"></script>
