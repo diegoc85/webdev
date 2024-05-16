@@ -88,5 +88,6 @@ console.log(filmes[0].nome)
 // const filmesModificado = filmes.map(filme => filme.nome)
 // console.log(filmesModificado)
 
-const filmesModificado = filmes.filter(filme => filme.ano > 2000)
+const filmesModificado = filmes.filter(filme => filme.Ano > 2000)
 console.log(filmesModificado)
+
