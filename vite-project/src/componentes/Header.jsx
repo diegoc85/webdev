@@ -1,11 +1,9 @@
 function Header () {
+    const nome = "Tiquinho Soares"
     return ( 
         <>
-            <h1>Título da Página</h1>
-            <ul>
-                <li></li>
-                <li></li>
-            </ul>
+            <h1>Olá, {nome}</h1>
+           
         </>
         
      );
